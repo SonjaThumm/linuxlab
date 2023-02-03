@@ -98,7 +98,7 @@ sap_hana_install_recreate_tenant_database: no
 # For compatibility of SAP HANA with SELinux in enforcing mode, the role will recursively relabel directories and files
 # in `/hana` before the installation starts and in `/usr/sap` after the installation has finished.
 # If relabeling not desired, set the following variable to `no`.
-sap_hana_install_modify_selinux_labels: yes
+sap_hana_install_modify_selinux_labels: no
 
 ################
 # Parameters for hdblcm:
